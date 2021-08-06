@@ -22,6 +22,7 @@ public class UserController {
 	@RequestMapping("/patient")
 	public String patientLogin() {
 		return ("<h1>Welcome </h1>");
+		//login();
 	}
 	
 	@RequestMapping("/physician")
